@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32210.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotNet.Client", "BotNet.Client\BotNet.Client.csproj", "{52D67D96-BADB-44B5-81F0-DC319F6AEE04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotNet.Server", "BotNet.Server\BotNet.Server.csproj", "{650409CC-C476-4C7A-91CF-A107B78A9712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52D67D96-BADB-44B5-81F0-DC319F6AEE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52D67D96-BADB-44B5-81F0-DC319F6AEE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52D67D96-BADB-44B5-81F0-DC319F6AEE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52D67D96-BADB-44B5-81F0-DC319F6AEE04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{650409CC-C476-4C7A-91CF-A107B78A9712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650409CC-C476-4C7A-91CF-A107B78A9712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650409CC-C476-4C7A-91CF-A107B78A9712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650409CC-C476-4C7A-91CF-A107B78A9712}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C2DA042-F975-4F5A-B404-DE8F86C4B971}
+	EndGlobalSection
+EndGlobal
