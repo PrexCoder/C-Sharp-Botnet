@@ -1,16 +1,21 @@
 ﻿using BotNet.Client.Connection.Extensions;
+using BotNet.Client.Connection.Interfaces;
 using Microsoft.AspNetCore.SignalR.Client;
 
-#nullable disable
 namespace BotNet.Client.Connection
 {
-  public class SigHub
+  public class SigHub : ISigHub
   {
-    public HubConnection Connection { get; set; }
+    public HubConnection? Connection { get; set; }
 
-    public async Task StartConnection()
+    public async Task StartConnectionAsync(string? hubUrl = "http://localhost/connection")
     {
-      Connection = new HubConnectionBuilder().WithUrl("http://localhost/connection").WithAutomaticReconnect().Build();
+      if(hubUrl == null)
+      {
+        return;
+      }
+
+      Connection = new HubConnectionBuilder().WithUrl(hubUrl).WithAutomaticReconnect().Build();
 
       await Connection.ConfigureBotNetEventsAsync();
 

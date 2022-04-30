@@ -7,10 +7,5 @@
       logger.AddConsole();
       logger.SetMinimumLevel(LogLevel.Warning);
     }
-
-    public static async Task ConfigureCrossPlatform()
-    {
-
-    }
   }
 }

