@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32210.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotNet.Client", "BotNet.Client\BotNet.Client.csproj", "{52D67D96-BADB-44B5-81F0-DC319F6AEE04}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BotNet.Client", "BotNet.Client\BotNet.Client.csproj", "{52D67D96-BADB-44B5-81F0-DC319F6AEE04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotNet.Server", "BotNet.Server\BotNet.Server.csproj", "{650409CC-C476-4C7A-91CF-A107B78A9712}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BotNet.Server", "BotNet.Server\BotNet.Server.csproj", "{650409CC-C476-4C7A-91CF-A107B78A9712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotNet.InfectUser", "BotNet.InfectUser\BotNet.InfectUser.csproj", "{FE79E23A-8AD3-4952-8CDB-61EFC7E0B708}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunar", "Lunar\Lunar\Lunar.csproj", "{EE0D25F4-22C9-4C8F-87E5-8901407B2BB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{650409CC-C476-4C7A-91CF-A107B78A9712}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{650409CC-C476-4C7A-91CF-A107B78A9712}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{650409CC-C476-4C7A-91CF-A107B78A9712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE79E23A-8AD3-4952-8CDB-61EFC7E0B708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE79E23A-8AD3-4952-8CDB-61EFC7E0B708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE79E23A-8AD3-4952-8CDB-61EFC7E0B708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE79E23A-8AD3-4952-8CDB-61EFC7E0B708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0D25F4-22C9-4C8F-87E5-8901407B2BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0D25F4-22C9-4C8F-87E5-8901407B2BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0D25F4-22C9-4C8F-87E5-8901407B2BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0D25F4-22C9-4C8F-87E5-8901407B2BB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

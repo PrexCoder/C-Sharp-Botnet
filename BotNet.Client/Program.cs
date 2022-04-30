@@ -1,5 +1,14 @@
 ﻿using BotNet.Client.Connection;
 
-var sigHub = new SigHub();
-await sigHub.StartConnection();
-Console.ReadLine();
+namespace Botnet.Client
+{
+  public class Program
+  {
+    public async Task Initialize()
+    {
+      var sigHub = new SigHub();
+      await sigHub.StartConnection();
+    }
+  }
+}
+

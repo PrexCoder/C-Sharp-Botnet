@@ -8,7 +8,6 @@ namespace BotNet.Client.Connection.Extensions
     {
       hub.On("test", () =>
       {
-        Console.WriteLine("test client work");
       });
     }
   }
