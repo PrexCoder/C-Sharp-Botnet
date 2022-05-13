@@ -1,4 +1,4 @@
-﻿using BotNet.InfectUser.Injector.Interfaces;
+﻿using BotNet.InfectUser.Interfaces;
 using Lunar;
 using Microsoft.Win32;
 using System.Diagnostics;

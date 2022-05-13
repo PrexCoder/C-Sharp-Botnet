@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BotNet.InfectUser.Injector.Interfaces
+namespace BotNet.InfectUser.Interfaces
 {
   public interface IBkInjectDll
   {
