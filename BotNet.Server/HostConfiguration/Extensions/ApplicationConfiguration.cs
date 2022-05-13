@@ -10,6 +10,8 @@ namespace BotNet.Server.HostConfiguration.Extensions
 
       app.UseRouting();
 
+      app.UseHttpLogging();
+
       app.UseEndpoints(endpoints =>
       {
         endpoints.MapHub<ConnectionHub>("connection");
