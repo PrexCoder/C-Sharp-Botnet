@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BotNet.Client", "BotNet.Cli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BotNet.Server", "BotNet.Server\BotNet.Server.csproj", "{650409CC-C476-4C7A-91CF-A107B78A9712}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotNet.InfectUser", "BotNet.InfectUser\BotNet.InfectUser.csproj", "{FE79E23A-8AD3-4952-8CDB-61EFC7E0B708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BotNet.InfectUser", "BotNet.InfectUser\BotNet.InfectUser.csproj", "{FE79E23A-8AD3-4952-8CDB-61EFC7E0B708}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunar", "Lunar\Lunar\Lunar.csproj", "{EE0D25F4-22C9-4C8F-87E5-8901407B2BB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BotNet.Client.ConsoleTester", "BotNet.Client.ConsoleTester\BotNet.Client.ConsoleTester.csproj", "{770DE82B-FA37-455F-8070-A0C721DA4B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BotnetClientWebAppTester", "BotnetClientWebAppTester\BotnetClientWebAppTester.csproj", "{45D28069-74B6-454B-9D16-146FD2FBFB86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{EE0D25F4-22C9-4C8F-87E5-8901407B2BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EE0D25F4-22C9-4C8F-87E5-8901407B2BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EE0D25F4-22C9-4C8F-87E5-8901407B2BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{770DE82B-FA37-455F-8070-A0C721DA4B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{770DE82B-FA37-455F-8070-A0C721DA4B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{770DE82B-FA37-455F-8070-A0C721DA4B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{770DE82B-FA37-455F-8070-A0C721DA4B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D28069-74B6-454B-9D16-146FD2FBFB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D28069-74B6-454B-9D16-146FD2FBFB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D28069-74B6-454B-9D16-146FD2FBFB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D28069-74B6-454B-9D16-146FD2FBFB86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
