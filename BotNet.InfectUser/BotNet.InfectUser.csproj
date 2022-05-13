@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lunar\Lunar\Lunar.csproj" />
+    <ProjectReference Include="..\Lunar\Lunar.csproj" />
   </ItemGroup>
 
 </Project>

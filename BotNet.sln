@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BotNet.Server", "BotNet.Ser
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BotNet.InfectUser", "BotNet.InfectUser\BotNet.InfectUser.csproj", "{FE79E23A-8AD3-4952-8CDB-61EFC7E0B708}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunar", "Lunar\Lunar\Lunar.csproj", "{6B67171D-5309-4602-B981-CA35D8F4208B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lunar", "Lunar\Lunar.csproj", "{87ABDA42-DF32-46B8-BC7F-2BD83734C232}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{FE79E23A-8AD3-4952-8CDB-61EFC7E0B708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE79E23A-8AD3-4952-8CDB-61EFC7E0B708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FE79E23A-8AD3-4952-8CDB-61EFC7E0B708}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6B67171D-5309-4602-B981-CA35D8F4208B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6B67171D-5309-4602-B981-CA35D8F4208B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6B67171D-5309-4602-B981-CA35D8F4208B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6B67171D-5309-4602-B981-CA35D8F4208B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87ABDA42-DF32-46B8-BC7F-2BD83734C232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87ABDA42-DF32-46B8-BC7F-2BD83734C232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87ABDA42-DF32-46B8-BC7F-2BD83734C232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87ABDA42-DF32-46B8-BC7F-2BD83734C232}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
